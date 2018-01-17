@@ -1,0 +1,209 @@
+%\documentclass[draft]{jyflluk}
+\documentclass[final]{jyflluk}
+%----------------------------------------------------------------------------------------
+% PDF-TIEDOSTON INFORMAATIO
+%----------------------------------------------------------------------------------------
+\hypersetup{%
+	pdftitle = {Gradu},
+	pdfauthor = {Orvokki Eerola},
+	pdfsubject = {Pro Gradu},
+	pdfproducer = {jyflluk-dokumenttiluokka}
+}
+
+%----------------------------------------------------------------------------------------
+% KANSILEHDEN MUOTOILU JA TEKSTI
+%----------------------------------------------------------------------------------------
+\newcommand*{\titleJYFL}{\begingroup  % Create the command for including the title page in the document
+\hbox{                                    % Horizontal box
+\hspace*{0.1\textwidth}                   % Whitespace to the left of the title page
+\rule{1pt}{\textheight}                   % Vertical line
+\hspace*{0.05\textwidth}                  % Whitespace between the vertical line and title page text
+\parbox[b]{0.8\textwidth}{                % Paragraph box which restricts text to less than the width of the page
+
+% Tutkielman nimi
+{\noindent\LARGE\bfseries Production of radioisotopes \\[0.5\baselineskip] for pharmaceutical industry}\\[2\baselineskip]
+%
+% Tutkielman tyyppi ja päiväys
+{\large Master's Thesis, \today}\\[3.5\baselineskip]
+%
+% Tutkielman tekijä 
+{\normalsize Author:}\\[0.5\baselineskip] 
+{\large \textsc{Orvokki Eerola}}\\[1\baselineskip]
+%
+% Työn ohjaajat
+{\normalsize Supervisor:}\\[0.5\baselineskip]
+{\large \textsc{Ari Virtanen}}
+%
+% Tyhjä väli ohjaajan nimen ja yliopiston logon välille - älä poista seuraavaa tyhjää riviä!
+
+\vspace{0.2\textheight}
+% Yliopiston logo, nimi ja ainelaitos
+\includegraphics[height=27mm]{jyfl-logo2.png} 
+}
+}        
+\endgroup}
+%----------------------------------------------------------------------------------------
+% VARSINAINEN DOKUMENTTI
+%----------------------------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------------------------
+% KANSILEHTI
+%----------------------------------------------------------------------------------------
+\titleJYFL
+
+%----------------------------------------------------------------------------------------
+% TIIVISTELMÄ
+%----------------------------------------------------------------------------------------
+\section*{Tiivistelmä}
+\addcontentsline{toc}{section}{Tiivistelmä}
+
+% Bibliografiset tiedot
+Eerola, Orvokki\\ 
+Radioisotooppien tuottaminen lääketeollisuudelle\\
+Pro Gradu -tutkielma\\ 
+Fysiikan laitos, Jyväskylän yliopisto, 2018, \pageref{LastPage}~sivua
+
+\bigskip
+
+% Tiivistelmän teksti
+
+\bigskip
+
+% Avainsanat
+Avainsanat: Opinnäyte, tiivistelmä, kirjoittaminen, ohjeet
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+% Bibliographic information
+Eerola, Orvokki\\
+Production of radioisotopes for pharmaceutical industry \\
+Master’s thesis \\
+Department of Physics, University of Jyväskylä, 2018, \pageref{LastPage}~pages.
+
+\bigskip
+
+% Abstract text
+\begin{otherlanguage}{english}
+This should be written in English.
+\end{otherlanguage}
+
+\bigskip 
+
+% Keywords
+Keywords: Thesis, abstract, writing, instructions
+\begin{otherlanguage}{english}
+
+% --------------------------------------------------------------------------
+% ESIPUHE
+% --------------------------------------------------------------------------
+%\section*{Esipuhe}
+%\addcontentsline{toc}{section}{Esipuhe}
+
+%Esipuheen teksti tulee tähän.
+
+%\bigskip
+
+%Jyväskylässä 4. maaliskuuta 2015
+
+%\bigskip
+
+%Olli Opiskelija
+
+% --------------------------------------------------------------------------
+% SISÄLLYS
+% --------------------------------------------------------------------------
+\tableofcontents
+
+% --------------------------------------------------------------------------
+% VARSINAINEN TEKSTIOSA
+% --------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+
+Usage of nuclear medicine first began quite fast after the discovery of radioactivity at the end of the nineteenth century.
+
+
+
+
+\section{General things about Radio medicine}
+\label{sec:general}
+
+A radioisotope is a unstable isotope that decays with time, by emitting particles or energy, to another stable or unstable element. The time, that this decay takes, is called half-life in which the radioisotope's amount is cut down to half from the original. It can vary from milliseconds to thousands of years.
+
+When considering radioisotopes used as medicine, their half-life is an extremely important factor: one does not want to expose a human body to excess radiation. Too much of it will do more harm than good, which is why the isotope used in a procedure is chosen carefully. The isotope needs to be stable enough to be taken to the place of treatment, but also decay fast enough not to give the patient too much dosage. 
+
+$\alpha$-particle radio immunotherapy as special case
+\subsection{xxx}
+\label{sec:xxx2}
+
+\subsection{xxx}
+\label{sec:xxx3}
+
+\subsection{xxx}
+\label{sec:xxx4}
+
+xxx
+
+\section{Production of radio medicine}
+\label{sec:production}
+
+
+
+\section{Special case: 225-Ac}
+\label{sec:tulokset}
+
+Tulokset esittelee ja kommentoi tutkimuksen tuloksia normaalisti tutkimusongelmien esittämisjärjestyksessä.
+
+\begin{table}[h]
+   \centering
+   \caption{Selkeä hinnasto}
+   \begin{tabular}{llr} \toprule
+      \multicolumn{2}{c}{Artikkeli} \\ \cmidrule(r){1-2}
+      Eläin    & Kuvaus       & hinta (mk) \\ \midrule
+      Hyttynen & grammoittain &  41,50 \\
+               & kappaleelta  &   0,05 \\
+							
+      Gnu      & täytetty     & 360,00 \\
+      Emu      & täytetty     & 121,30 \\
+      Vyötiäinen & pakastettu &  38,40 \\ \bottomrule
+   \end{tabular}
+\end{table}
+
+\begin{figure}[htp]
+   \centering
+   \includegraphics[width=\textwidth]{tutkinnot}
+   \caption{Valmistuneiden kandidaatintutkielmien jakauma tekijän opiskeluvuoden mukaan Jyväskylän yliopiston fysiikan laitoksella 2014 ($n = 42$); tutkintojen jakauma opiskeluvuoden mukaan, kun tutkielma on valmistunut 2014 ($n = 29$; tilanne 4.3.2015). (Kuva: Jussi Maunuksela, 2015)}
+   \label{fig:esim-kuvio}
+\end{figure}
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+Loppuluvussa arvioidaan tutkimusta ja sen tuloksia.
+
+\nocite{*}
+% --------------------------------------------------------------------------
+% LÄHTEET
+% --------------------------------------------------------------------------
+\bibliographystyle{finabbrv}   % <= Määritellään käytettävä viittausjärjestelmä.
+\bibliography{LuK-malli}           % <= Määritellään käytettävä BibTeX-tietokanta.
+
+% --------------------------------------------------------------------------
+% LIITTEET
+% --------------------------------------------------------------------------
+\appendix
+
+\section{Ensimmäinen liite}
+\label{sec:ensimmainen-liite}
+
+\section{Toinen liite}
+\label{sec:toinen-liite}
+
+\end{otherlanguage}
+
+\end{document}
+
